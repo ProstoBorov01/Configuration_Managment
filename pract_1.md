@@ -53,8 +53,7 @@ id=$(grep -o -E '\b[a-zA-Z]*\b' "$file" | sort -u)
 grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.c | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 ```
 
-![image](https://github.com/user-attachments/assets/e39a7713-0612-4a9d-9982-82a493df5a25)
-
+![image](https://github.com/user-attachments/assets/2abd50c7-4ecd-47d7-abc7-9e81380de6e5)
 
 ## Задание 5
 Написать программу для регистрации пользовательской команды (правильные права доступа и копирование в /usr/local/bin).
@@ -69,7 +68,6 @@ chmod 755 "./$file"
 sudo cp "$file" /usr/local/bin/
 ```
 
-![image](https://github.com/user-attachments/assets/1c760c0e-05fc-4254-a20c-e2c1dacaf00b)
 ![image](https://github.com/user-attachments/assets/6f1e4e06-dc33-475f-b475-b913353974d0)
 
 
