@@ -36,9 +36,7 @@ echo "| ${text} |"
 echo "+${line}+"
 ```
 
-
-
-Перед отправкой решения проверьте его в ShellCheck на предупреждения.
+![image](https://github.com/user-attachments/assets/3f39e998-641b-40ca-8a55-f3896a3c7b0e)
 
 ## Задание 4
 Написать программу для вывода всех идентификаторов (по правилам C/C++ или Java) в файле (без повторений).
@@ -55,7 +53,7 @@ id=$(grep -o -E '\b[a-zA-Z]*\b' "$file" | sort -u)
 grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.c | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 ```
 
-![image](https://github.com/user-attachments/assets/a1a7d512-826b-4a32-8571-7d983666e98a)
+![image](https://github.com/user-attachments/assets/e39a7713-0612-4a9d-9982-82a493df5a25)
 
 
 ## Задание 5
@@ -70,5 +68,11 @@ chmod 755 "./$file"
 
 sudo cp "$file" /usr/local/bin/
 ```
+
+![image](https://github.com/user-attachments/assets/1c760c0e-05fc-4254-a20c-e2c1dacaf00b)
+![image](https://github.com/user-attachments/assets/6f1e4e06-dc33-475f-b475-b913353974d0)
+
+
+
 
 
