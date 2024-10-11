@@ -116,7 +116,7 @@ Requires: contourpy, cycler, fonttools, kiwisolver, numpy, packaging, pillow, py
 Required-by:
 ```
 
-##Задание 2
+## Задание 2
 
 Вывести служебную информацию о пакете express (JavaScript).
 Разобрать основные элементы содержимого файла со служебной информацией из пакета.
@@ -159,11 +159,11 @@ latest: 4.21.1  next: 5.0.1
 published 2 days ago by ulisesgascon <ulisesgascondev@gmail.com>
 ```
 
-##Задание 3
+## Задание 3
 
 Сформировать graphviz-код и получить изображения зависимостей matplotlib и express
 ![image](https://github.com/user-attachments/assets/08590220-1c28-4fec-8729-3dfce71fb59b)
 
 ![image](https://github.com/user-attachments/assets/397d2ba2-be82-4788-bdf4-e3d8b88c1f81)
 
-##Задание 4
+## Задание 4
