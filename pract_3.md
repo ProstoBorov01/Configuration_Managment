@@ -1,4 +1,4 @@
-## Задача 1
+![image](https://github.com/user-attachments/assets/49f43598-408d-4d0a-b251-08dd8e4edcaf)## Задача 1
 
 Реализовать на Jsonnet приведенный ниже пример в формате JSON. Использовать в реализации свойство программируемости и принцип DRY.
 
@@ -25,6 +25,8 @@ local students = [
 }
 ```
 
+![image](https://github.com/user-attachments/assets/8f4e8630-5d9d-473c-9d64-6da000b52f21)
+
 ## Задача 2
 
 Реализовать на Dhall приведенный ниже пример в формате JSON. Использовать в реализации свойство программируемости и принцип DRY.
@@ -49,6 +51,8 @@ in  { groups = groups,
  }
 ```
 
+![image](https://github.com/user-attachments/assets/f4762464-92ad-4893-920b-de8f2062cc68)
+
 ## Задача 3
 
 Реализовать грамматики, описывающие следующие языки (для каждого решения привести БНФ). Код решения должен содержаться в переменной BNF.
@@ -56,11 +60,12 @@ in  { groups = groups,
 Язык нулей и единиц.
 
 Решение:
-```
 BNF = '''
-E = 10 | 100 | 11 | 101101 | 000
+E = Digit | E Digit
+Digit = 0 | 1
 '''
-```
+
+![image](https://github.com/user-attachments/assets/1104d035-1755-4e9b-b48a-277fe16949cd)
 
 ## Задача 4
 
@@ -75,6 +80,7 @@ E = "()" | "{}" | E E | "(" E ")" | "{" E "}"
 '''
 ```
 
+![image](https://github.com/user-attachments/assets/8df4ee12-95d8-4c92-84ad-74c18af3638e)
 
 ## Задача 5
 
@@ -82,9 +88,11 @@ E = "()" | "{}" | E E | "(" E ")" | "{" E "}"
 
 Язык выражений алгебры логики.
 
-Решение:
-```
 BNF = '''
-E = "~" E | E "&" E | E "|" E | "(" E ")" | "x" | "y"
+E = T EPrime
+EPrime = Op T EPrime | 
+T = ~ T | ( E ) | Var
+Op = & | |
+Var = x | y
 '''
-```
+![image](https://github.com/user-attachments/assets/d8aa6822-12f1-41f7-a483-1159f7b57503)
