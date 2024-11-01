@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/49f43598-408d-4d0a-b251-08dd8e4edcaf)## Задача 1
+## Задача 1
 
 Реализовать на Jsonnet приведенный ниже пример в формате JSON. Использовать в реализации свойство программируемости и принцип DRY.
 
@@ -60,10 +60,12 @@ in  { groups = groups,
 Язык нулей и единиц.
 
 Решение:
+```
 BNF = '''
 E = Digit | E Digit
 Digit = 0 | 1
 '''
+```
 
 ![image](https://github.com/user-attachments/assets/1104d035-1755-4e9b-b48a-277fe16949cd)
 
@@ -88,11 +90,13 @@ E = "()" | "{}" | E E | "(" E ")" | "{" E "}"
 
 Язык выражений алгебры логики.
 
+Решение:
+```
 BNF = '''
 E = T EPrime
 EPrime = Op T EPrime | 
 T = ~ T | ( E ) | Var
 Op = & | |
 Var = x | y
-'''
+```
 ![image](https://github.com/user-attachments/assets/d8aa6822-12f1-41f7-a483-1159f7b57503)
