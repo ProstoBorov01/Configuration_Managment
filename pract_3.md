@@ -97,6 +97,6 @@ E = T EPrime
 EPrime = Op T EPrime | 
 T = ~ T | ( E ) | Var
 Op = & | |
-Var = x | y
+Var = x | y '''
 ```
 ![image](https://github.com/user-attachments/assets/d8aa6822-12f1-41f7-a483-1159f7b57503)
