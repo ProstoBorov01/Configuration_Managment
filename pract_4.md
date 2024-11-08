@@ -37,7 +37,7 @@ git checkout HEAD^
 git checkout HEAD^
 git checkout HEAD^
 ```
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/78887753-79bd-452d-8fd8-0cbb1d2486ec)
 
 ## Задание 2
 
